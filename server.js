@@ -14,7 +14,7 @@
 
 //Initialize Express
   var app = express();
-  var PORT = process.env.PORT || 1010;
+  var PORT = process.env.PORT || 5050;
 
 //Express session
   app.use(require("express-session")({
