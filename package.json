@@ -4,7 +4,7 @@
   "description": "Employee management system",
   "main": "server.js",
   "scripts": {
-    "build": "webpack -p --progress --config webpack.config.js",
+    "build": "node node_modules/webpack/bin/webpack.js --display-error-details",
     "start": "node server",
     "watch": "webpack --progress -d --config webpack.config.js --watch"
   },
